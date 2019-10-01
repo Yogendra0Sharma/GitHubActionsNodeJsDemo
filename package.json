@@ -1,0 +1,24 @@
+{
+  "name": "GitHubActionsNodeJsDemo",
+  "version": "1.0.0",
+  "description": "Simple Example using Github Actions with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yogendra0Sharma/GitHubActionsNodeJsDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yogendra0Sharma/GitHubActionsNodeJsDemo/issues"
+  },
+  "homepage": "https://github.com/Yogendra0Sharma/GitHubActionsNodeJsDemo#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  }
+}
